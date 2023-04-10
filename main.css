@@ -4,27 +4,17 @@
     box-sizing: border-box;
 }
 
-header,
-section h2 {
-    font-family: 'Aleo', serif;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
+.p {
+    text-align: 'justify';
+}
 header {
     padding: 16px 0;
     background-color: #222121;
     color: #ecf0f1;
 }
-
-header h1,
-section h2 {
-    font-size: normal;
-}
-
-
 
 
 .articles {
@@ -33,13 +23,7 @@ section h2 {
     justify-content: space-between;
 }
 
-.articles article img {
-    width: 100%;
-}
 
-.articles article {
-    width: 30%;
-}
 
 .articles article a {
     background-color: #222121;
@@ -65,13 +49,7 @@ section {
     padding: 24px 0;
 }
 
-section h2 {
-    margin-bottom: 16px;
-}
 
-section p {
-    margin-bottom: 8px;
-}
 
 
 .product-img {
@@ -116,15 +94,15 @@ form button {
 }
 
 form button:hover {
-    background-color: #464545;;
+    background-color: #464545;
 }
 
 input:focus, textarea:focus {
-    outline-color: #222121;
+    outline-color: #22212;
 }
 
 footer {
     background-color: #222121;
     color: #ecf0f1;
-    padding: 16px 0;
+    padding: 16px;
 }
